@@ -1,0 +1,16 @@
+:root {
+  --primaryColor: rgb(72, 137, 146);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+body {
+  background-color: rgb(45, 67, 70);
+}

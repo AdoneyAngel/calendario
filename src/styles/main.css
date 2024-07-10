@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #dfdfdf;
+    margin-bottom: 20px;
+}
+.body {
+}
+.body .buttonList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.body .buttonList button {
+    margin: 0 10px;
+    padding: 10px 15px;
+    color: var(--primaryColor);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.body table {
+    margin: auto;
+}
+.body table th {
+    padding: 10px 15px;
+}
+.body table td p {
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color: var(--primaryColor);
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+td#domingo p , td#sabado p {
+    background-color: var(--primaryColor);
+    color: white;
+}
